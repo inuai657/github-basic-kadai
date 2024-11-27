@@ -1,0 +1,35 @@
+PS C:\Users\world\OneDrive\デスクトップ\samurai\git_challenge> cd "C:\Users\world\OneDrive\デスクトップ\samurai_kadai\git_challenge"
+PS C:\Users\world\OneDrive\デスクトップ\samurai_kadai\git_challenge> git init
+Initialized empty Git repository in C:/Users/world/OneDrive/デス
+クトップ/samurai_kadai/git_challenge/.git/
+PS C:\Users\world\OneDrive\デスクトップ\samurai_kadai\git_challenge> git add .
+PS C:\Users\world\OneDrive\デスクトップ\samurai_kadai\git_challenge> git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   hello_world.txt
+
+PS C:\Users\world\OneDrive\デスクトップ\samurai_kadai\git_challenge> git commit -m "hello_world.txtを追加”
+[main (root-commit) 62ee70c] hello_world.txtを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\world\OneDrive\デスクトップ\samurai_kadai\git_challenge> git add .
+PS C:\Users\world\OneDrive\デスクトップ\samurai_kadai\git_challenge> git status
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\world\OneDrive\デスクトップ\samurai_kadai\git_challenge> git add . 
+PS C:\Users\world\OneDrive\デスクトップ\samurai_kadai\git_challenge> git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   hello_world.txt
+
+PS C:\Users\world\OneDrive\デスクトップ\samurai_kadai\git_challenge> git commit -m "日本語訳を追記"
+[main e517710] 日本語訳を追記
+ 1 file changed, 2 insertions(+)
+PS C:\Users\world\OneDrive\デスクトップ\samurai_kadai\git_challenge> git log --oneline
+e517710 (HEAD -> main) 日本語訳を追記
+62ee70c hello_world.txtを追加
